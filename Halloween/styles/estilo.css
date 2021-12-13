@@ -1,0 +1,41 @@
+/* HOJA DE ESTILO EJERCICIO HALLOWEEN */
+/* 2ºSMR - CURSO 2021/2022 */
+/* Autor Miguel Perez Sanchez */
+@font-face {
+    font-family: old;
+    src: url(../fonts/haziness/Haziness.ttf);
+}
+
+body {background-color: rgb(78, 94, 100);
+        font-family: old;
+    }
+
+#container {width: 1286px;
+            height: 578px;
+            background-image: url(../images/background2.jpg);
+            margin: 0px 0px 0px 25px;
+}
+#p1 {color:dimgray;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+            
+
+#p2 {color:dimgray;
+    font-size: 1.4em;
+    text-shadow: 5px 5px 5px black;}
+
+#colgado {position:absolute;
+        top: 160px;
+        left: 510px;
+        border: 1px solid rgb(255, 255, 255);
+        width:50px;
+        height: 80px;
+        }
+
+#bats {position: absolute;
+        left: 510px;
+        top: 160px;
+        visibility:hidden;
+    }
